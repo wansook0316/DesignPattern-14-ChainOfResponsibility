@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CE1CF4AF2974E4AD00259F96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF4AE2974E4AD00259F96 /* main.swift */; };
 		CE1CF4C9297501E000259F96 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF4C8297501E000259F96 /* Handler.swift */; };
+		CE1CF4CB2975038F00259F96 /* ProtocolHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF4CA2975038F00259F96 /* ProtocolHandler.swift */; };
+		CE1CF4CD2975039700259F96 /* DomainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF4CC2975039700259F96 /* DomainHandler.swift */; };
+		CE1CF4CF297503A200259F96 /* PortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF4CE297503A200259F96 /* PortHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		CE1CF4AB2974E4AD00259F96 /* ChainOfResponsibility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1CF4AE2974E4AD00259F96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE1CF4C8297501E000259F96 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		CE1CF4CA2975038F00259F96 /* ProtocolHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolHandler.swift; sourceTree = "<group>"; };
+		CE1CF4CC2975039700259F96 /* DomainHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainHandler.swift; sourceTree = "<group>"; };
+		CE1CF4CE297503A200259F96 /* PortHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				CE1CF4AE2974E4AD00259F96 /* main.swift */,
 				CE1CF4C8297501E000259F96 /* Handler.swift */,
+				CE1CF4CA2975038F00259F96 /* ProtocolHandler.swift */,
+				CE1CF4CC2975039700259F96 /* DomainHandler.swift */,
+				CE1CF4CE297503A200259F96 /* PortHandler.swift */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -123,8 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1CF4CD2975039700259F96 /* DomainHandler.swift in Sources */,
 				CE1CF4C9297501E000259F96 /* Handler.swift in Sources */,
 				CE1CF4AF2974E4AD00259F96 /* main.swift in Sources */,
+				CE1CF4CF297503A200259F96 /* PortHandler.swift in Sources */,
+				CE1CF4CB2975038F00259F96 /* ProtocolHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
