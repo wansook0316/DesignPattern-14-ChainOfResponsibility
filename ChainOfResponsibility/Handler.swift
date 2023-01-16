@@ -11,11 +11,11 @@ internal protocol Handler {
 
     var nextHandler: Handler? { get set }
 
-    func setNext(handler: Handler) -> Handler
+    mutating func setNext(handler: Handler) -> Handler
 
-    func run(url: String)
+    func run(url: URL)
 
-    func process(url: String)
+    func process(url: URL)
 
 }
 
@@ -26,7 +26,7 @@ extension Handler {
         return handler
     }
 
-    internal func run(url: String) {
+    internal func run(url: URL) {
         self.process(url: url)
 
         if let nextHandler {
